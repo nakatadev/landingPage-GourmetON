@@ -6,11 +6,13 @@ import porque_img2 from '../../imagens/vista-superior-sobre-o-banquete-de-comida
 
 function Porque() {
     return (
-        <div className="porque">
-            <h1>Por que a galera só usa GourmetON?</h1>
+        <section className="porque">
+             <h1>Por que a galera só usa GourmetON?</h1>
+        <div className="imgs">          
             <img src={porque_img2} alt="porque o Ogurmet on" className="banquete"/>
             <img src={porque_img} alt="porque o gourmet on" className="texto_img"/>
         </div>
+        </section>
     )
 }
 

@@ -4,30 +4,72 @@
     --font-poppins: 'Poppins', sans-serif;
 }
 
+/* Grid para alinhar as imagens uma ao lado da outra */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta o número de colunas automaticamente */
+    gap: 30px; /* Espaçamento entre as imagens */
+    justify-items: center; /* Centraliza as imagens na coluna */
+    align-items: center;
+    padding: 20px;
+}
 
-
-
+/* Exemplo de imagem dentro do grid */
+.grid-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
 /*mobile e tablet */
 @media (max-width: 991px) {
+    .porque h1{
+        text-align: center;
+    }
+    .banquete{
+        width: 180px;
+        height: 150px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .texto_img{
+        margin-top: -15px;
+        width: 200px;
+        height: 200px;
+    }
 
+    /* Ajuste para as imagens no grid em dispositivos móveis */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas para dispositivos menores */
+    }
 }
-
-
 
 /*desktop*/
 @media (min-width: 992px) {
     .porque h1{
         text-align: center;
+        font-size: 48px;
+    }
+    .imgs{
+        display: flex;
+        
+        align-items: center;
     }
     .banquete{
         width: 500px;
-        height: 400px;
+        height: 500px;
         border-radius: 20px;
         margin-left: 80px;
     }
     .texto_img{
-        width: 600px;
-        height: 600px;
+        display: flex;
+        margin-left: 300px;
+        width: 500px;
+        height: 500px;
+    }
+
+    /* Ajuste para as imagens no grid em dispositivos maiores */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 3 colunas para desktops */
     }
 }
