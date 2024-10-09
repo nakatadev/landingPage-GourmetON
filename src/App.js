@@ -3,6 +3,7 @@ import Header from './componentes/header/header.js';
 import Apresentacao from './componentes/apresentacao/apresentacao.js';
 import Conheca from './componentes/conheca/conheca.js';
 import Porque from './componentes/porque/porque.js';
+import Funcionalidades from './componentes/funcionalidades/funcionalidades.js';
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
             <Apresentacao />
             <Conheca />
             <Porque />
+            <Funcionalidades />
+            
         </div>
     )
 };
