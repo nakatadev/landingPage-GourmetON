@@ -8,10 +8,9 @@ function Apresentacao() {
             <h1>Transforme cada refeição em uma experiência  incrível</h1>
             <p>Levamos o melhor da gastronomia diretamente à sua porta,
             com rapidez e praticidade.</p>
-            <img src={Aplicativo} className='sec1__app'></img>
+            <img src={Aplicativo} className='sec1__app' alt='app gourmetON'></img>
         </section>
     )
 }
-
 
 export default Apresentacao;

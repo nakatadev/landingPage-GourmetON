@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/*mobile e tablet */
+@media (max-width: 991px) {
+    body {
+        overflow-x: hidden !important;
+        margin: 0;
+        padding: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .sec2__conheca {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #C62828;
+        padding: 20px;
+        margin: 0;
+    }
+    
+    .sec2__conheca h2 {
+        font-family: var(--font-poppins);
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        margin-top: -0.3em;
+    }
+    
+    .sec2__infos {
+        display: grid;
+        grid-template-columns: 1fr auto; 
+        grid-template-rows: auto auto;   
+    
+        align-items: center;            
+    }
+    
+    .sec2__infos h3 {
+        text-align: left;
+        font-family: var(--font-poppins);
+        font-size: 14px;
+        width: 160px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .sec2__infos img {
+        grid-row: 1 / span 2; 
+        grid-column: 2;       
+        justify-self: center; 
+        width: 180px;
+        height: 330px;
+    }
+
+}
+
+
+
+/*desktop*/
+@media (min-width: 992px) {
+    .sec2__conheca {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 4em 0 4em;
+        align-items: center;
+        background-color: #C62828;
+    }
+    .sec2__conheca h2{
+        font-family: var(--font-poppins);
+        font-size: 48px;
+        font-weight: 600;
+        color: white;
+    }
+    .sec2__infos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2em;
+    }
+
+    .sec2__infos h3{
+        width: 360px;
+        height: 350px;
+        font-size: 30px;
+        font-family: var(--font-poppins);
+        font-weight: 600;
+        color: white;
+    }
+    .sec2__infos img {
+        width: 360px;
+        height: 590px;
+        margin-right: 1em;
+    }
+}
