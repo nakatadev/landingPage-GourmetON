@@ -3,7 +3,7 @@ import './formulario.css';
 
 function Formulario() {
     return (
-        <section className="formulario">
+        <section className="formulario" id="formularioID">
             <h1>Fique por dentro das promoções</h1>
             <form>
                 <input type="text" placeholder="Digite seu email"/>

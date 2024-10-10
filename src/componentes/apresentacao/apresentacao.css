@@ -12,6 +12,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 3em;
     }
     .sec1__apresentacao h1 {
         font-family: var(--font-poppins);
@@ -43,6 +44,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 5em;
     }
     .sec1__apresentacao h1 {
         font-family: var(--font-poppins);

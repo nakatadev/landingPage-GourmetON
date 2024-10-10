@@ -8,11 +8,18 @@
 /* mobile/tablet */
 @media (max-width: 991px) {
     .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 7.5em;
         height: 60px;
+        background-color: white;
+        color: white;
+        padding: 0 20px;
     }
     .logo {
         width: 50px;
@@ -26,6 +33,7 @@
     }
     .lista__nav li {
         font-family: var(--font-roboto);
+        color: black;
     }
     .nav__desktop {
         display: none;
@@ -36,11 +44,16 @@
 /* desktop */
 @media (min-width: 992px) {
     .header {
+        position: fixed; /* Mantém o header fixo */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-items: center;
-        margin-left: 6em;
         height: 90px;
+        background-color: white; /* Cor de fundo do header */
     }
     .logo {
         width: 70px;
@@ -53,8 +66,10 @@
         margin-left: 2em;
         list-style-type: none;
     }
-    .lista__nav li {
+    .lista__nav li, .lista__nav a{
         font-family: var(--font-roboto);
+        text-decoration: none;
+        color: black;
     }
 
 }
