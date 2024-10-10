@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+
+
+@media (max-width: 991px) {
+    .sec5__maisVendidos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec5__maisVendidos h2{
+        font-family: var(--font-poppins);
+        font-size: 20px;
+    }
+
+    .sec5__pratos {
+        background-color: #C62828;
+        width: 330px;
+        height: 175px;
+        border-radius: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec5__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide__imagem {
+        width: 150px;
+    }
+
+    .container__slide {
+        width: 500px;
+        margin-top: -0.5em;
+    }
+    .container__slide h3 {
+        font-family: var(--font-poppins);
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        margin-top: 1em;
+
+    }
+    .container__slide h4 {
+        font-family: var(--font-poppins);
+        font-size: 10px;
+        color: white;
+        margin: -1.5em 0 -0.5em 0;
+    }
+    .container__slide p {
+        font-family: var(--font-poppins);
+        font-size: 8px;
+        font-weight: 400;
+        color: white;
+    }
+    .container__slide a{
+        display: none;
+    }
+    
+}
+
+
+
+@media (min-width: 992px) {
+    .sec5__maisVendidos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec5__maisVendidos h2{
+        font-family: var(--font-poppins);
+        font-size: 40px;
+    }
+
+    .sec5__pratos {
+        background-color: #C62828;
+        width: 1124px;
+        height: 450px;
+        border-radius: 40px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec5__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide__imagem {
+        width: 500px;
+    }
+
+    .container__slide {
+        width: 500px;
+    }
+    .container__slide h3 {
+        font-family: var(--font-poppins);
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+        margin: 0.5em 0;
+    }
+    .container__slide h4 {
+        font-family: var(--font-poppins);
+        font-size: 25px;
+        color: white;
+        margin: -0.5em 0;
+    }
+    .container__slide p {
+        font-family: var(--font-poppins);
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+    .container__slide a{
+        padding: 10px 20px;
+        background-color: #D9D9D9;
+        border-radius: 20px;
+        font-family: var(--font-poppins);
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #424242;
+    }
+
+}
+
+
