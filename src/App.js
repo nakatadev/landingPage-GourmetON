@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import Header from './componentes/header/header.js';
 import Apresentacao from './componentes/apresentacao/apresentacao.js';
@@ -26,7 +26,6 @@ function App() {
     )
 };
 
-=======
 import React from 'react';
 import Header from './componentes/header/header.js';
 import Apresentacao from './componentes/apresentacao/apresentacao.js';
@@ -54,5 +53,4 @@ function App() {
     )
 };
 
->>>>>>> 5bd8bdeb7bed3a5fbe1ba1ac4b58d36705c8dc57
 export default App;
