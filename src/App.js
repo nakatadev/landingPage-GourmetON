@@ -7,6 +7,7 @@ import Funcionalidades from './componentes/funcionalidades/funcionalidades.js';
 import MaisVendidos from './componentes/maisvendidos/maisvendidos.js';
 import Formulario from './componentes/formulario/formulario.js';
 import Footer from './componentes/footer/footer.js';
+import Depoimentos from './componentes/depoimentos/depoimentos.js'
 
 function App() {
     return (
@@ -17,10 +18,9 @@ function App() {
             <Porque />
             <Funcionalidades />
             <MaisVendidos />
+            <Depoimentos />
             <Formulario />
             <Footer />
-
-            
         </div>
     )
 };
