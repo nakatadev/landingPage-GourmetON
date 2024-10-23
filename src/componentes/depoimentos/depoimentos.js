@@ -1,8 +1,8 @@
 import React from "react";
 import './depoimentos.css';
-import depoimento1 from '../../imagens/depoimentos2.png;
+import depoimento1 from '../../imagens/depoimentos2.png';
 
-import depoimento2 from '../../imagens/depoimentos2.png;
+import depoimento2 from '../../imagens/depoimentos2.png';
 
 
 function Depoimentos () {
