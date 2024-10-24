@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/landingPage-GourmetON/static/css/main.e5f81a68.css",
+    "main.js": "/landingPage-GourmetON/static/js/main.356c85bd.js",
+    "static/js/453.17deb687.chunk.js": "/landingPage-GourmetON/static/js/453.17deb687.chunk.js",
+    "static/media/frame app GourmetON.png": "/landingPage-GourmetON/static/media/frame app GourmetON.6f1a1bcc703bca1ca28c.png",
+    "static/media/vista superior prato.png": "/landingPage-GourmetON/static/media/vista superior prato.24165f5e0ab11aa2bc74.png",
+    "static/media/App login GourmetON (2).png": "/landingPage-GourmetON/static/media/App login GourmetON (2).df9ff8f1a17ded1b3d37.png",
+    "static/media/App GourmetON sec1.png": "/landingPage-GourmetON/static/media/App GourmetON sec1.95d4772ee197d304ef8d.png",
+    "static/media/Imagem_2_sec3_GourmetON-removebg-preview.png": "/landingPage-GourmetON/static/media/Imagem_2_sec3_GourmetON-removebg-preview.81e12917ba79dfb6655f.png",
+    "static/media/conteudo sec3 container 2.png": "/landingPage-GourmetON/static/media/conteudo sec3 container 2.501092f1cfa55b4b0331.png",
+    "static/media/image-removebg-preview (6).png": "/landingPage-GourmetON/static/media/image-removebg-preview (6).d8396973ec8c2570b480.png",
+    "index.html": "/landingPage-GourmetON/index.html",
+    "main.e5f81a68.css.map": "/landingPage-GourmetON/static/css/main.e5f81a68.css.map",
+    "main.356c85bd.js.map": "/landingPage-GourmetON/static/js/main.356c85bd.js.map",
+    "453.17deb687.chunk.js.map": "/landingPage-GourmetON/static/js/453.17deb687.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f81a68.css",
+    "static/js/main.356c85bd.js"
+  ]
+}
