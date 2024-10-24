@@ -19,8 +19,6 @@ function App() {
             <MaisVendidos />
             <Formulario />
             <Footer />
-
-            
         </div>
     )
 };
