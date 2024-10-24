@@ -26,7 +26,6 @@ function App() {
     )
 };
 
-=======
 import React from 'react';
 import Header from './componentes/header/header.js';
 import Apresentacao from './componentes/apresentacao/apresentacao.js';
